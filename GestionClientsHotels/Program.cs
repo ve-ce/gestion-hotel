@@ -13,6 +13,13 @@
             hotel.AjouterClient(client1);
             hotel.AjouterClient(client2);
             hotel.AjouterClient(client3);
+
+            foreach (Client client in hotel.ListeClients)
+            {
+                Console.WriteLine("{0} {1}, {2}, Carte de crédit: {3}, Chambre: {4}", client.Prenom, client.Nom, client.Courriel, client.CarteCredit, client.NumeroChambre);
+            }
+
+            Console.ReadLine();
         }
     }
-}
+    }
