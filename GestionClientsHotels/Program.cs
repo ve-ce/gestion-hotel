@@ -6,9 +6,9 @@
         {
             Hotel hotel = new Hotel();
 
-            Client client1 = new Client("Doe", "John", "johndoe@example.com", "1234-5678-9012-3456", 101);
+            Client client1 = new Client("Anna", "John", "johndoe@example.com", "1234-5678-9012-3456", 101);
             Client client2 = new Client("Smith", "Jane", "janesmith@example.com", "9876-5432-1098-7654", 201);
-            Client client3 = new Client("Lee", "Bruce", "brucelee@example.com", "2468-1357-5793-8642", 301);
+            Client client3 = new Client("Lee", "Willis", "brucelee@example.com", "2468-1357-5793-8642", 301);
 
             hotel.AjouterClient(client1);
             hotel.AjouterClient(client2);
